@@ -1,0 +1,25 @@
+{
+  "name": "@wang-jie-git/dsh-moat",
+  "version": "0.1.0",
+  "description": "代码质量门禁 —— 智能检查代码语法、启动链、API 和跨系统关联",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "moat",
+    "code-quality",
+    "testing"
+  ],
+  "license": "MIT"
+}

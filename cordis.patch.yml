@@ -1,0 +1,4 @@
+# @wangjiezhong/dsh-moat bundle patch: 代码质量门禁
+- insert:
+    - id: "@wangjiezhong/dsh-moat"
+      name: "@wangjiezhong/dsh-moat"
