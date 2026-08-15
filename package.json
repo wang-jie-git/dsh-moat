@@ -14,12 +14,6 @@
       "patch": "./cordis.patch.yml"
     }
   },
-  "keywords": [
-    "dsh",
-    "dsh-plugin",
-    "moat",
-    "code-quality",
-    "testing"
-  ],
+  "keywords": ["dsh", "dsh-plugin", "moat", "code-quality", "testing"],
   "license": "MIT"
 }

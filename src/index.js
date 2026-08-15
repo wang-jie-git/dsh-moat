@@ -8,7 +8,7 @@ import { execFile, execSync } from 'node:child_process'
 import { defineTool } from '@deepseek-ai/dsh-tools'
 import { join } from 'node:path'
 
-export const name = '@wangjiezhong/dsh-moat'
+export const name = '@wang-jie-git/dsh-moat'
 export const inject = ['tools']
 
 const TIMEOUT_MS = 120000
